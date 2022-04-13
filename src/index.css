@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+img {
+    margin: auto;
+    width: 10em;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: lightblue;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.grid-item {
+    align-self: center;
+}
+
+.list {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 50%;
+    margin: auto;
+    /* background-color: black; */
+    text-align: center;
+}
+
+.item {
+    margin-top: 0.5em;
+}
+
+.input {
+    margin: 0 auto;
+    text-align: left;
+    padding: 0.4em;
+    border-radius: 3px;
+    border-color: black;
+}
+
+.add {
+    color: white;
+    background-color: #4CAF50;
+    margin-top: 1em;
+    border: none;
+    padding: 0.8em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add:hover {
+    background-color: #3e8e41
+}
+
+.remove {
+    color: white;
+    background-color: #2a71a0;
+    margin-left: 0.75em;
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove:hover {
+    background-color: #205070
+}
